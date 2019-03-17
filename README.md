@@ -1,7 +1,17 @@
-# Starter for deploying [fast.ai](https://www.fast.ai) models on [Render](https://render.com)
+# Car Classifier
 
-This repo can be used as a starting point to deploy [fast.ai](https://github.com/fastai/fastai) models on Render.
+This is a simple Machine Learning web application allowing to classify 196 different classes of cars.
 
-The sample app described here is up at https://fastai-v3.onrender.com. Test it out with bear images!
-
-The guide for production deployment to Render is at https://course.fast.ai/deployment_render.html.
+To run it, simply execute the following command (requires Docker):
+```
+$ docker-compose up -build
+```
+ You can then access to the classifier in a browser at the address ***localhost***
+ 
+ # About the application
+ 
+ The application uses the starlette ASGI framework (more information  [here](https://github.com/encode/starlette)).
+ 
+ The Neural Network used for the classification was trained with Pytorch using the resnet34 architecture and the Fastai library for the optimization of the model.
+ 
+ A Jupyter Notebook is provided (see car-classifier.ipynb). It shows how easily the Fastai library handled the processing of the data and the training of the model.
