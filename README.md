@@ -16,4 +16,4 @@ You can then access to the classifier in a browser at the address ***localhost**
  
  The Neural Network used for the classification was trained with Pytorch using the resnet34 architecture and the Fastai library for the optimization of the model.
  
- A Jupyter Notebook is provided (see car-classifier.ipynb). It shows how easily the Fastai library helped handling the processing of the data and the training of the model.
+ A Jupyter Notebook is provided (see [car-classifier.ipynb](https://github.com/H4dr1en/car-classifier/blob/master/car-classifier-training.ipynb)). It shows how easily the Fastai library helped handling the processing of the data and the training of the model.
