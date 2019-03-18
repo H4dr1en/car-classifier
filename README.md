@@ -2,8 +2,6 @@
 
 This is a simple Machine Learning web application allowing to classify 196 different classes of cars, with an accuracy of 93%.
 
-The web app is running on Amazon Elastic Beanstalk: http://car-classifier.us-east-2.elasticbeanstalk.com/ 
-
 To run it locally, simply execute the following command (requires Docker):
 ```
 $ docker-compose up -build
