@@ -8,7 +8,7 @@ To run it locally, simply execute the following command (requires Docker):
 ```
 $ docker-compose up -build
 ```
-You can then access to the classifier in a browser at the address ***localhost***. On the web application you can upload the picture of the car you would like to know the class (available classes are shown in the notebook, see last section)
+You can then access to the classifier in a browser at the address ***localhost***. On the web application you can upload the picture of the car you would like to know the class (available classes are listed [here](https://github.com/H4dr1en/car-classifier/blob/master/app/cars_meta.txt))
  
  # About the application
  
