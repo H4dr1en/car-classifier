@@ -6,6 +6,9 @@ To run it, simply execute the following command (requires Docker):
 ```
 $ docker-compose up -build
 ```
+
+The web app is also running on Amazon Elastic Beanstalk: http://car-classifier.us-east-2.elasticbeanstalk.com/ 
+
  You can then access to the classifier in a browser at the address ***localhost***. On the web application you can upload the picture of the car you would like to know the class (available classes are shown in the notebook, see last section)
  
  # About the application
